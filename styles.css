@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    background-color: brown;
+    text-align: start;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 1700px;
+    height: 800px;
+    
+    ;
+
+}
+main {
+    padding: 5px;
+    border: 2px;
+    background-color: bisque;
+    flex-grow: 1;
+}
+
+.img {
+    width: 200px;
+    height: 200px; 
+
+}
+.latas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+footer {
+    padding: 5px;
+    border: 2px;
+    background-color: chocolate;
+    bottom: 0;
+
+}
